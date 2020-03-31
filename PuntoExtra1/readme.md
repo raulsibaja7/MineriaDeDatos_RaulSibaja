@@ -22,7 +22,6 @@ plt.rcParams.update({'figure.figsize': (10, 7), 'figure.dpi': 120})
 
 register_matplotlib_converters()
 
-import matplotlib.pyplot as plt
 df = pd.read_csv('https://raw.githubusercontent.com/raulsibaja7/MineriaDeDatos_RaulSibaja/master/PuntoExtra1/covid.csv', parse_dates=['date'], index_col='date')
 
 def plot_df(df, x, y, title="", xlabel='Fecha', ylabel='Casos Confirmados', dpi=100):
