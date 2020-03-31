@@ -29,9 +29,3 @@ plot_df(df, x=df.index, y=df.value, title='Casos COVID-19 México 11 al 30 de ma
 
 
 ![png](output_0_0.png)
-
-
-
-```python
-
-```
