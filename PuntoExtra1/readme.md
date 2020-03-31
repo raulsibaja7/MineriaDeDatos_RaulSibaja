@@ -1,4 +1,4 @@
-## Punto Extra
+## ANÁLISIS DE SERIES DE TIEMPO
 ### Integrantes:
 #### Raúl Salomón Almeraya Sibaja
 #### Karina Lizeth Ortiz Muñoz
