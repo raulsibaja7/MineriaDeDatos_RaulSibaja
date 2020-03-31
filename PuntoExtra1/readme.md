@@ -30,11 +30,11 @@ df = pd.read_csv('https://raw.githubusercontent.com/raulsibaja7/MineriaDeDatos_R
 def plot_df(df, x, y, title="", xlabel='Fecha', ylabel='Casos Confirmados', dpi=100):
     plt.figure(figsize=(16,5), dpi=dpi)
     plt.plot(x, y, color='tab:pink')
+    plt.scatter(x,y)
     plt.gca().set(title=title, xlabel=xlabel, ylabel=ylabel)
     plt.show()
 
 plot_df(df, x=df.index, y=df.value, title='Casos COVID-19 México 11 al 30 de marzo')
-
 ```
 
 
